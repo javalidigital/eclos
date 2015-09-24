@@ -153,7 +153,7 @@
 		/* Scroll To Navigation For Top menu*/
 		jQuery('#top-nav').onePageNav({
 			currentClass: 'current',
-			changeHash: true,
+			changeHash: false,
 			scrollSpeed: 800,
 			scrollOffset: 0,
 			scrollThreshold: 0.3,

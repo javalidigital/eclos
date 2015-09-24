@@ -32,6 +32,7 @@
 								$portfolio_launch_project_link = get_post_meta($post_id, "portfolio_launch_project_link",true );
 								$portfolio_launch_project_link = !empty($portfolio_launch_project_link)? $portfolio_launch_project_link : 'javascript:void(0);'
 							?>
+
                             <div class="<?php echo $content_width; ?>">
                             	<div class="project_detail">
                                 	<div class="project_text">
@@ -39,7 +40,7 @@
                                             <h2><?php the_title(); ?></h2>
                                             <h3><?php echo $portfolio_tagline; ?></h3>
                                         </div>
-                                        <?php the_content(); ?>
+                                        <?php the_content(); ?> 
                                     </div>
                                     <div class="project_meta">
                                         <span class="meta_title"><?php _e("Client", "kraftives"); ?></span>
@@ -59,6 +60,7 @@
                                     </a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 <!-- project_ajax_content ends -->
@@ -72,7 +74,13 @@
                 <!-- page_nav starts -->
                 <?php get_template_part('templates/single-prev-next', 'nav');?>
                 <!-- page_nav ends -->
+                <!-- SEGUNDA COLUNA PARA POSTS -->
+                <div id="second-column" class="column">
+                    <?php the_block( 'Second column') ?>
+                </div>
+                <!-- SEGUNDA COLUNA PARA POSTS ENDS-->
             </div>
         </div>
     </section>
     <!-- content_area project ends -->
+<!-- CRIANDO ESTRUTURA DE PÁGINA PARA O PORTFÓLIO -->

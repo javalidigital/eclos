@@ -19,16 +19,16 @@
 define('DB_NAME', 'eclos');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'eclos');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'pumba2012');
+define('DB_PASSWORD', 'eclos2015');
 
 /** nome do host do MySQL */
 define('DB_HOST', 'localhost');
 
 /** Conjunto de caracteres do banco de dados a ser usado na criação das tabelas. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** O tipo de collate do banco de dados. Não altere isso se tiver dúvidas. */
 define('DB_COLLATE', '');
